@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: url(http://az616578.vo.msecnd.net/files/2016/06/04/6360066808291721731600227166_Dollarphotoclub_65482539.jpg);
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    font-weight: bold;
+    font-family: 'Oswald', monospace;
+}
+
+#game {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Oswald', monospace;
+    margin-bottom: 60px;
+}
+
+#lossCounter {
+    display: none;
+}
+
+/* Word to Guess */
+.word-box {
+    color: #7FFF00;
+    font-size: 30px;
+    font-family: 'Oswald', monospace;
+    padding-bottom: 80px;
+    border-color: #FF4500;
+    border-style: double;
+    border-width: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.letter-box {
+    /* Incorrect Guesses */
+    color: red;
+    font-size: 30px;
+    font-family: 'Oswald', monospace ;
+    padding-bottom: 60px;
+}
+/* Chances Left */
+.guess-count {
+    color: #7FFF00;
+    font-size: 30px;
+    font-family: 'Oswald', monospace;
+    padding-bottom: 60px;
+}
+
+.win-count {
+    color: gray;
+    font-size: 30px;
+    font-family: 'Oswald', monospace;
+    padding-bottom: 60px;
+}
+
+.counter-box {
+    border-color: #FF4500;
+    border-style: double;
+    border-width: 3px;
+    text-align-last: center;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+iframe {
+    display: none;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: @screen-sm-min) {
+    ...
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: @screen-md-min) {
+    ...
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: @screen-lg-min) {
+    ...
+}

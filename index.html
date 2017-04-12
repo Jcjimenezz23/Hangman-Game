@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    
+    <!--Reset css link-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    
+    <!--Custom css link-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header col-xs-12 col-sm-12 col-md-12 col-lg-12">Hangman Traveling Edition</div>
+      <br>
+
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      </div>
+      <div class="word-box col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div>
+
+          Correct Guesses:
+          <br> <span id="wordToGuess"></span>
+        </div>
+      </div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      <div class="counter-box col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="letter-box">
+          Incorrect Guesses: <span id="usedLetters"></span>
+        </div>
+        <div class="guess-count">
+          Chances Left: <span id="guessesLeft"></span>
+        </div>
+        <div class="win-count">
+          Win Counter: <span id="winCounter">0</span>
+        </div>
+      </div>
+      <div id="lossCounter" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      </div>
+      
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
